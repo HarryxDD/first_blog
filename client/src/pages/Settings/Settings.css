@@ -1,0 +1,82 @@
+.app__settings {
+    display: flex;
+}
+
+.app__settings-wrapper {
+    flex: 9;
+    padding: 20px;
+}
+
+.settings__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title__update {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--color-green);
+}
+
+.title__delete {
+    color: tomato;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settings__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__settings {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.profile__settings img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.profile__settings svg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settings__form label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settings__form input {
+    color: gray;
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.settings__submit {
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: var(--color-green);
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}

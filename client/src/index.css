@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:ital@0;1&family=Montserrat:ital@0;1&family=Varela&family=Varela+Round&display=swap');
+
+:root {
+    --font-base: 'Josefin Sans', sans-serif;
+    --font-alt: 'Lora', serif;
+    --font-alt-2: 'Varela Round', sans-serif;
+
+    --color-green: #8BF0B4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+  }

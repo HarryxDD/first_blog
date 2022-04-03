@@ -1,0 +1,40 @@
+.app__header {
+    margin-top: 60px;
+}
+
+.app__header-titles {
+    display: flex;
+    padding-right: 15rem;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: var(--font-alt);
+    color: #C20000;
+}
+
+.title__sub {
+    position: absolute;
+    top: 18%;
+    font-size: 50px;
+}
+
+.title {
+    position: absolute;
+    top: 20%;
+    font-size: 150px;
+}
+
+.title__sub-2 {
+    position: absolute;
+    top: 35%;
+    font-size: 20px;
+    width: 30%;
+    text-align: right;
+    flex-wrap: wrap;
+}
+
+.app__header-img img{
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+    object-fit: cover;
+}

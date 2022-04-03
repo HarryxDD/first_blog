@@ -1,0 +1,61 @@
+.app__write {
+    padding-top: 50px;
+}
+
+.input__img {
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.app__write-form {
+    position: relative;
+}
+
+.form__group {
+    display: flex;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.form__group label svg {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    font-size: 20px;
+    color: rgb(121, 118, 118);
+    cursor: pointer;
+}
+
+.input__form {
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.input__form:focus {
+    outline: none;
+}
+
+.input__para {
+    font-size: 20px;
+    height: 100vh;
+}
+
+.input__submit {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: white;
+    background-color: var(--color-green);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
